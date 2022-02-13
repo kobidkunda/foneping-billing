@@ -137,6 +137,10 @@
                                 <!--end::Svg Icon-->
                                 <div class="text-white fw-bolder fs-2 mb-2 mt-5">$ 22</div>
                                 <div class="fw-bold text-white">Balance left in your account</div>
+
+
+
+
                             </div>
                             <!--end::Body-->
                         </a>
@@ -180,9 +184,17 @@
 
                         <div class="card bg-white hoverable card-xl-stretch mb-xl-12">
                             <div class="card-body p-9">
-                                <div class="fs-4 fw-bold text-gray-400 mb-7">Prefix & IP</div>
+
+                                <span class="svg-icon svg-icon-primary svg-icon-3x ms-n1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M10.6 10.7C13.3 8 16.9 6.3 20.9 6C21.5 6 21.9 5.5 21.9 4.9V3C21.9 2.4 21.4 2 20.9 2C15.8 2.3 11.2 4.4 7.79999 7.8C4.39999 11.2 2.2 15.8 2 20.9C2 21.5 2.4 21.9 3 21.9H4.89999C5.49999 21.9 6 21.5 6 20.9C6.2 17 7.90001 13.4 10.6 10.7Z" fill="black"/>
+                                        <path opacity="0.3" d="M14.8 14.9C16.4 13.3 18.5 12.2 20.9 12C21.5 11.9 21.9 11.5 21.9 10.9V9C21.9 8.4 21.4 8 20.8 8C17.4 8.3 14.3 9.8 12 12.1C9.7 14.4 8.19999 17.5 7.89999 20.9C7.89999 21.5 8.29999 22 8.89999 22H10.8C11.4 22 11.8 21.6 11.9 21C12.2 18.6 13.2 16.5 14.8 14.9ZM16.2 16.3C17.4 15.1 19 14.3 20.7 14C21.3 13.9 21.8 14.4 21.8 15V17C21.8 17.5 21.4 18 20.9 18.1C20.1 18.3 19.5 18.6 19 19.2C18.5 19.8 18.1 20.4 17.9 21.1C17.8 21.6 17.4 22 16.8 22H14.8C14.2 22 13.7 21.5 13.8 20.9C14.2 19.1 15 17.5 16.2 16.3Z" fill="black"/>
+                                        </svg>
+                                </span>
+                                <br>
+
                                 <div class="fs-6 d-flex justify-content-between mb-4">
-                                    <div class="fw-bold">IP</div>
+                                    <div class="fw-bold">Termination IP</div>
                                     <div class="d-flex fw-bolder">
                                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr007.svg-->
 
@@ -190,24 +202,30 @@
                                         <!--end::Svg Icon-->173.214.175.59
                                     </div>
                                 </div>
-                                <div class="separator separator-dashed"></div>
-                                <div class="fs-6 d-flex justify-content-between my-4">
-                                    <div class="fw-bold">Prefix</div>
-                                    <div class="d-flex fw-bolder">
-                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr006.svg-->
 
-                                        <!--end::Svg Icon-->9891 (USA)
-                                    </div>
-                                </div>
-                                <div class="separator separator-dashed"></div>
-                                <div class="fs-6 d-flex justify-content-between mt-4">
-                                    <div class="fw-bold">Your Default Prefix</div>
-                                    <div class="d-flex fw-bolder">
-                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr007.svg-->
 
-                                        <!--end::Svg Icon-->$920
-                                    </div>
-                                </div>
+                                <div class="separator separator-dashed"> </div>
+
+                                <br>
+
+                                <a href="#" class="btn btn-flex btn-primary px-20">
+                                    <span class="svg-icon svg-icon-2x">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path opacity="0.3" d="M22.0318 8.59998C22.0318 10.4 21.4318 12.2 20.0318 13.5C18.4318 15.1 16.3318 15.7 14.2318 15.4C13.3318 15.3 12.3318 15.6 11.7318 16.3L6.93177 21.1C5.73177 22.3 3.83179 22.2 2.73179 21C1.63179 19.8 1.83177 18 2.93177 16.9L7.53178 12.3C8.23178 11.6 8.53177 10.7 8.43177 9.80005C8.13177 7.80005 8.73176 5.6 10.3318 4C11.7318 2.6 13.5318 2 15.2318 2C16.1318 2 16.6318 3.20005 15.9318 3.80005L13.0318 6.70007C12.5318 7.20007 12.4318 7.9 12.7318 8.5C13.3318 9.7 14.2318 10.6001 15.4318 11.2001C16.0318 11.5001 16.7318 11.3 17.2318 10.9L20.1318 8C20.8318 7.2 22.0318 7.59998 22.0318 8.59998Z" fill="black"/>
+                                            <path d="M4.23179 19.7C3.83179 19.3 3.83179 18.7 4.23179 18.3L9.73179 12.8C10.1318 12.4 10.7318 12.4 11.1318 12.8C11.5318 13.2 11.5318 13.8 11.1318 14.2L5.63179 19.7C5.23179 20.1 4.53179 20.1 4.23179 19.7Z" fill="black"/>
+                                            </svg>
+                                    </span>
+                                    <span class="d-flex flex-column align-items-start ms-2">
+                                        <span class="fs-3 fw-bolder">Manage</span>
+                                        <span class="fs-7">Manage Your IP and Prefix</span>
+                                    </span>
+                                </a>
+
+
+
+
+
+
                             </div>
                         </div>
 
